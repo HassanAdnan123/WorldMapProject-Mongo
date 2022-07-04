@@ -1,7 +1,6 @@
 package com.worldmap.worldmapmain.controller;
-import com.worldmap.commons.dto.request.AddTrackerRequest;
+import com.worldmap.worldmapmain.dto.request.AddTrackerRequest;
 import com.worldmap.commons.dto.response.BaseResponse;
-import com.worldmap.commons.persistence.entity.Tracker;
 import com.worldmap.commons.service.factory.TrackerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
